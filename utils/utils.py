@@ -9,7 +9,7 @@ import random
 import torch
 import torch.nn as nn
 import torch.nn.init as init
-from skimage.measure.simple_metrics import compare_psnr
+#from skimage.measure.simple_metrics import compare_psnr
 from skimage.metrics import peak_signal_noise_ratio
 imageio.plugins.freeimage.download()
 
