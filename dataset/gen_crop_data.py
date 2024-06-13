@@ -87,7 +87,7 @@ def main():
     args = parser.parse_args()
 
     full_size_training_data_path = os.path.join(args.data_root, 'Training')
-    cropped_training_data_path = os.path.join(args.data_root, 'sig17_training_crop{}_stride{}'.format(str(args.patch_size), str(args.stride)))
+    cropped_training_data_path = os.path.join('', 'data/sig17_training_crop{}_stride{}'.format(str(args.patch_size), str(args.stride)))
     if not os.path.exists(cropped_training_data_path):
         os.makedirs(cropped_training_data_path)
 
